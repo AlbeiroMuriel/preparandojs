@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <script>
+        let edad = 17
+        let votar = edad >= 18? "Puede votar":"No puede votar"
+        console.log(votar);
+
+        let nota = 2.7
+
+        let observacion = nota < 2 ? "Perdio":
+                          nota < 3 ? "perdio puede recuperar":
+                          nota < 4 ? "Gano":
+                          nota < 5 ? "excelente":
+                          "no existe";
+        console.log(observacion);
+
+        var genero = 1
+        var mensaje = genero == 1? (
+            console.log("Eres Hombre"),
+            console.log("mero macho"),
+            "ingreso 1"
+        ): genero == 2 ?
+        (
+            console.log("Eres Mujer"),
+            console.log("mero linda")
+        ): genero == 3?
+        (
+            console.log("binario")
+        ):
+        (console.log("no existe"))
+         
+       console.log(mensaje); 
+    </script>
+</body>
+</html>
